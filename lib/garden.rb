@@ -1,4 +1,6 @@
-# Something is missing here
+require_relative './plant.rb'
+require 'pry'
+
 
 class Garden
   attr_accessor :name
@@ -13,6 +15,7 @@ class Garden
     end
   end
 end
+# binding.pry
 
 lawn = Garden.new(name: 'Front Lawn')
 
