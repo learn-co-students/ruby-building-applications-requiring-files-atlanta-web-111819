@@ -1,4 +1,5 @@
 require_relative './plant.rb'
+require 'pry'
 
 class Garden
   attr_accessor :name
